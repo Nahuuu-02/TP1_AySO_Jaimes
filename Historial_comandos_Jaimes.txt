@@ -1,0 +1,999 @@
+pwd
+whoami
+who
+w
+ls }
+ls
+ls -l
+ls -la
+echo hola
+echo $HOME
+mkdir Clase 4
+ls -l
+cd clase
+cd Clase
+echo linea1 > archivo1.txt
+ls -l
+cat archivo1.txt
+cat > archiivo2.txt
+ls -l
+cat archiivo2.txt
+cat *.txt
+cat archivo1.txt
+cat archivo1.txt > archivo3.txt
+ls -l
+cat archivo3.txt
+cat archivo1.txt >> archiivo2.txt
+cat archiivo2.txt
+cat archivo1.txt archiivo2.txt > archivo4.txt
+cat archivo4.txt
+cd ..
+mkdir documentos
+ls -l
+cd documentos
+cd ..
+cd clase
+cd ..
+cd Clase
+cd Clase/
+cd documentos
+cd Clase
+cd ..
+ls -l
+cd Clase
+cd 4
+cd HOME$
+cd HOME
+cd Clase
+ls -l
+cd Clase
+grep linea2 archivo4.txt
+grep linea1 archivo4.txt
+grep -n linea1 archivo4.txt
+grep -c linea1 archivo4.txt
+cd ..
+pwwd
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+clear
+cd $HOME
+pwd
+tree
+apt install tree
+sudo apt install tree
+sudo snap install tree
+tree
+pwd
+ls -l
+mkdir practica
+ls -l}
+ls -l
+cd practica
+touch practica1.txt
+cat practica1.txt
+cp practica1.txt practica2.txt
+ls -l
+rm practica1.txt
+ls -l
+mv practica2.txt /home/vagrant/Clase/
+ls -l
+cd ..
+pwd
+rmdir practica
+ls -l
+cd Clase
+ls -l
+id
+mkdir dir1 dir 2 dir3
+ls -l
+tree
+mkdir -p dir1/dir2/dir3/dir4
+ls-l
+ls -l
+tree
+exit
+ls -l
+mkdir Hola
+ls -l
+cd Clase
+ls -l
+rd archiivo2.txt
+rv archiivo2.txt
+rm archiivo2.txt
+ls -l
+cd Home
+pwd
+tree
+cd ..
+pwd
+tree
+cd documentos
+cd repogit
+cd ..
+cd repogit
+cd ..
+cd documentos
+mk archivo1.txt
+mkfile archivo1.txt
+mk file archivo1.txt
+cat > archivo1.txt
+ls -l
+cd documentos
+ls -l
+tree
+cat archivo1.txt
+tree
+cd documentos
+rm archivo1.txt
+ls -l
+cat >archivo1.txt
+cat archivo1.txt 
+cat >archivo2.txt
+grep -l palabra_a_buscar ./*
+grep -l dias ./*
+grep -l dias ./archivo1.txt
+grep -l dias ./*archivo1.txt
+grep dias
+grep -l dias
+grep dias archivo1.txt
+grep -n dias archivo1.txt
+grep -c dias archivo1.txt
+grep -n martes ./*
+tree
+grep martes archivo1.txt | grep martes archivo2.txt
+grep martes archivo1.txt | grep Martes archivo2.txt
+grep -i martes archivo1.txt | grep -i martes archivo2.txt
+pwd
+ls -l
+cd Clase
+tree
+mkdir facturas pedidos
+tree
+rm facturas
+rm facturas/
+rm pedidos/
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contacto/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p Jaimes/contacto/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p Jaimes2/Mama/{hijo{1..3}},papa/{ahijado,hijo{1..3}}
+tree
+id
+cat /etc/passwd
+grep -i vagrant /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo grep vagrant /etc/shadow
+grep vagrant /etc/group
+sudo su
+groupadd Alumnos
+sudo groupadd Alumnos
+cat /etc/group
+useradd -m -s /bin/bash -c "Usuario pepe" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Usuario pepe" -G Alumnos pepe
+cat /etc/group
+cat /etc/passwd
+ls -l /home
+sudo passwd pepe
+sudo cat /etc/shadow
+su pepe
+w
+su - pepe
+sudo usermod -aG sudo pepe
+su - pepe
+sudo chown vagrant:vagrant /home/pepe/pepe.txt
+sudo ls -l /home/pepe
+pwd
+cd..
+cd ..
+pwd
+mkdir clase 5
+ls -l
+rm -r clase
+rm -r 5
+rm -r 4
+ls -l
+mkdir clase5
+cd clase5
+touch practica1.txt
+touch practica2.txt
+ls -l
+chmod 600 practica1.txt
+ls -l
+chmod 444 practica2.txt
+ls -l
+chmod 777 practica2.txt
+ls -l
+cd ..
+pwd
+ls -l
+cd repogit
+ls -l
+giot clone git@github.com:Nahuuu-02/TP1_AySO_Jaimes.git
+git clone git@github.com:Nahuuu-02/TP1_AySO_Jaimes.git
+ls -l
+cd TP1_AySO_Jaimes/
+“ssh-keygen -t ed25519
+ssh-keygen -t ed25519
+y
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls-l
+cd repogit
+ls-l
+ls -l
+cd..
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:Nahuuu-02/TP1_AySO_Jaimes.git
+pwd
+ls -l
+cd TP1_AySO_Jaimes/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er
+git commit -m "ADD: agregado 1er
+git config --global user.email "nahuel.jaimes02@gmail.com"
+git config --global user.name "Nahuuu-02"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+cat -i readme.md
+cat README.md
+cat <<EOF >> README.md
+Alumno: Nahuel Jaimes
+Division: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos"
+git push
+tree
+mkdir
+pdw
+pwd
+cd ..
+cd..
+cd ..
+pwd
+mkdir -p {material,materia2}/{uni1..3}
+tree
+rm -r material/'{uni1..3}' materia2/'{uni1..3}
+rm -r material/'{uni1..3}' materia2/'{uni1..3}'
+tree
+rm -r material/
+rm -r materia2/
+tree
+mkdir -p {material,materia2}/{uni1,uni2,uni3}
+tree
+rm -r {material,materia2}/{uni1,uni2,uni3}
+tree
+rm -r materia2/
+rm -r material/
+rm -r {materia1,materia2}/{uni1,uni2,uni3}
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+tree
+Nahu@DESKTOP-599L5TK MINGW64 /d/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant up
+==> vagrant: A new version of Vagrant is available: 2.4.9 (installed version: 2.
+4.3)!
+==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to da
+te...
+==> default: Resuming suspended VM...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+==> default: Machine booted and ready!
+vagrant@VMPruebas:~$ ls -l
+total 28
+drwxrwxr-x 13 vagrant vagrant 4096 Sep 15 13:07 Clase
+drwxrwxr-x  2 vagrant vagrant 4096 Sep 14 18:43 Hola
+-rw-r--r--  1 root    root       5 Sep  8 12:41 README
+drwxrwxrwx  1 vagrant vagrant    0 Sep  8 12:39 carpeta_compartida
+drwxrwxr-x  2 vagrant vagrant 4096 Sep 15 15:13 clase5
+drwxrwxr-x  2 vagrant vagrant 4096 Sep 14 19:08 documentos
+drwxrwxr-x  4 vagrant vagrant 4096 Sep 15 15:30 repogit
+drwx------  3 vagrant vagrant 4096 Sep  8 15:13 snap
+vagrant@VMPruebas:~$ cd repogit
+vagrant@VMPruebas:~/repogit$ ls -l
+total 8
+drwxrwxr-x  3 vagrant vagrant 4096 Sep 15 15:30 TP1_AySO_Jaimes
+drwxrwxr-x 19 vagrant vagrant 4096 Sep  8 12:41 UTN-FRA_SO_onBording
+vagrant@VMPruebas:~/repogit$ git clone git@github.com:Nahuuu-02/TP1_AySO_Jaimes.git
+fatal: destination path 'TP1_AySO_Jaimes' already exists and is not an empty directory.
+vagrant@VMPruebas:~/repogit$ pwd
+/home/vagrant/repogit
+vagrant@VMPruebas:~/repogit$ ls -l
+total 8
+drwxrwxr-x  3 vagrant vagrant 4096 Sep 15 15:30 TP1_AySO_Jaimes
+drwxrwxr-x 19 vagrant vagrant 4096 Sep  8 12:41 UTN-FRA_SO_onBording
+vagrant@VMPruebas:~/repogit$ cd TP1_AySO_Jaimes/
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ pwd
+/home/vagrant/repogit/TP1_AySO_Jaimes
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ ls -l
+total 4
+-rw-rw-r-- 1 vagrant vagrant 17 Sep 15 15:30 README.md
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ cat /etc/os-release
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ man grep
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ grep -i Home_url /etc/os-release
+HOME_URL="https://www.ubuntu.com/"
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ grep -i Home_url /etc/os-release > datos_url.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ whoami
+vagrant
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ echo “Usuario=$(whoami)” > datos_usuario.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git add .
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git commit -m "ADD: agregado 1er
+> git commit -m "ADD: agregado 1er
+error: pathspec 'agregado' did not match any file(s) known to git
+error: pathspec '1er' did not match any file(s) known to git
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git config --global user.email "nahuel.jaimes02@gmail.com"
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git config --global user.name "Nahuuu-02"
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git commit -m "ADD: agregado 1er
+> ejercicio sobre datos_usuarios.txt"
+[main 900ff4e] ADD: agregado 1er ejercicio sobre datos_usuarios.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+nothing to commit, working tree clean
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 416 bytes | 416.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Nahuuu-02/TP1_AySO_Jaimes.git
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ grep "model name" /proc/cpuinfo | head -n1 >>
+-bash: syntax error near unexpected token `newline'
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ datos_usuarios.txt
+datos_usuarios.txt: command not found
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario
+s.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git add datos_usuarios.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git commit -m "feat: Añadiendo información de CPU"
+[main e861a9e] feat: Añadiendo información de CPU
+ 1 file changed, 1 insertion(+)
+ create mode 100644 datos_usuarios.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ cat -i readme.md
+cat: invalid option -- 'i'
+Try 'cat --help' for more information.
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ cat README.md
+# TP1_AySO_Jaimesvagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ cat <<EOF >> README.md
+> Alumno: Nahuel Jaimes
+> Division: 113
+> Turno: Mañana
+> EOF
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git add README.md datos_usuarios.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git commit -m "ADD: Añadiendo Readme y datos"
+[main 83e790a] ADD: Añadiendo Readme y datos
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 755 bytes | 755.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Nahuuu-02/TP1_AySO_Jaimes.git
+   900ff4e..83e790a  main -> main
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ tree
+.
+├── README.md
+├── datos_url.txt
+├── datos_usuario.txt
+└── datos_usuarios.txt
+
+1 directory, 4 files
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ pdw
+Command 'pdw' not found, did you mean:
+  command 'ptw' from snap ptw (1.0.0)
+  command 'pdd' from deb pdd (1.5-1)
+  command 'pd' from deb puredata-core (0.52.1+ds0-1)
+  command 'pdb' from deb python-dev-is-python3 (3.9.2-2)
+  command 'pfw' from deb pftools (3.2.11-2)
+  command 'pwd' from deb coreutils (8.32-4.1ubuntu1.2)
+  command 'pdl' from deb pdl (1:2.074-1)
+  command 'pmw' from deb pmw (1:4.50-1)
+  command 'cdw' from deb cdw (0.8.1-2)
+  command 'pda' from deb speech-tools (1:2.5.0-12)
+  command 'psw' from deb wise (2.4.1-23)
+See 'snap info <snapname>' for additional versions.
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ pwd
+/home/vagrant/repogit/TP1_AySO_Jaimes
+vagrant@VMPruebas:~/repogit/TP1_AySO_Jaimes$ cd ..
+vagrant@VMPruebas:~/repogit$ cd..
+cd..: command not found
+vagrant@VMPruebas:~/repogit$ cd ..
+vagrant@VMPruebas:~$ pwd
+/home/vagrant
+vagrant@VMPruebas:~$ mkdir -p {material,materia2}/{uni1..3}
+vagrant@VMPruebas:~$ tree
+.
+├── Clase
+│   ├── 2
+│   ├── Jaimes
+│   │   └── contacto
+│   │       ├── clientes
+│   │       │   ├── facturas
+│   │       │   └── pedidos
+│   │       └── proveedores
+│   │           ├── facturas
+│   │           └── pedidos
+│   ├── Jaimes2
+│   │   └── Mama
+│   │       ├── {hijo1},papa
+│   │       │   ├── ahijado
+│   │       │   ├── hijo1
+│   │       │   ├── hijo2
+│   │       │   └── hijo3
+│   │       ├── {hijo2},papa
+│   │       │   ├── ahijado
+│   │       │   ├── hijo1
+│   │       │   ├── hijo2
+│   │       │   └── hijo3
+│   │       └── {hijo3},papa
+│   │           ├── ahijado
+│   │           ├── hijo1
+│   │           ├── hijo2
+│   │           └── hijo3
+│   ├── archivo1.txt
+│   ├── archivo3.txt
+│   ├── archivo4.txt
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   ├── contacto
+│   │   ├── clientes
+│   │   │   ├── facturas
+│   │   │   └── pedidos
+│   │   └── proveedores
+│   │       ├── facturas
+│   │       └── pedidos
+│   ├── dir
+│   ├── dir1
+│   │   └── dir2
+│   │       └── dir3
+│   │           └── dir4
+│   ├── dir3
+│   ├── facturas
+│   ├── pedidos
+│   ├── practica2.txt
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── Hola
+├── README
+├── carpeta_compartida
+│   ├── Vagrantfile
+│   ├── script_Enable_ssh_password.sh
+│   └── script_Fix_history.sh
+├── clase5
+│   ├── practica1.txt
+│   └── practica2.txt
+├── documentos
+│   ├── archivo1.txt
+│   └── archivo2.txt
+├── materia2
+│   └── {uni1..3}
+├── material
+│   └── {uni1..3}
+├── repogit
+│   ├── TP1_AySO_Jaimes
+│   │   ├── README.md
+│   │   ├── datos_url.txt
+│   │   ├── datos_usuario.txt
+│   │   └── datos_usuarios.txt
+│   └── UTN-FRA_SO_onBording
+│       ├── Almacenamiento
+│       │   └── Tipos_Almacenamiento.md
+│       ├── Extras
+│       │   ├── Fabricacion_Antenas_Wifi
+│       │   │   └── Proyecto_Antenas_Belgrano
+│       │   │       ├── Belgrano
+│       │   │       │   └── 05-05-2010-Belgrano Mandarache x chalenger.pdf
+│       │   │       ├── Belgrano_2Ni
+│       │   │       │   └── Belgrano-2ni_20110907.pdf
+│       │   │       ├── Belgrano_Caridad
+│       │   │       │   ├── BELGRANO_CARIDAD_JUNIO_2020.pdf
+│       │   │       │   ├── BELGRANO_CARIDAD_MONOPOLO.stl
+│       │   │       │   └── BELGRANO_CARIDAD_REFLECTOR.stl
+│       │   │       ├── Belgrano_Cataro
+│       │   │       │   ├── Cataro_2.4-5_ghz_Dual_Band_wifi.pdf
+│       │   │       │   └── Construccion_del_Belgrano_Cataro_5GHZ.pdf
+│       │   │       ├── Belgrano_Mexico
+│       │   │       │   └── Belgrano Mexico Plantilla 2.pdf
+│       │   │       ├── Belgrano_Windalo
+│       │   │       │   ├── Belgrano_WINDALO.docx.pdf
+│       │   │       │   └── Montaje_de_las_Antenas_WINDALO.pdf
+│       │   │       └── Parabolica_Centrada_para_Iluminador_Belgrano
+│       │   │           ├── 22-06-10-Parabola-120-18-50-OK-12y16R.pdf
+│       │   │           ├── 27-5-2010-Plantilla-Parabola-1m-ok.pdf
+│       │   │           ├── Curvas D120-F72-FD06-12x12-ok x Chalenger.pdf
+│       │   │           ├── Curvas+d1200-p125-f720-fd06+ok+x+Chalenger-1x1.pdf
+│       │   │           ├── Parabola Curvas D=1500 F=900 x FD=06 x Chalenger ok.pdf
+│       │   │           ├── Parabola D1000mm-F600xChalenger.pdf
+│       │   │           ├── ParabolasChalenger_V3.0-16-08-2010.zip
+│       │   │           ├── Plantilla Curvas D2000-P210-F1190-FD06 x Chalenger.pdf
+│       │   │           ├── Plantilla Curvas D=180cm - P=186mm - F=108cm - FD=06 x Chalenger ok.pdf
+│       │   │           ├── Verificar curvatura-ok.pdf
+│       │   │           └── parabola d900-f544-fd06xchalenger-10-08-12.pdf
+│       │   ├── Fundamentos_de_Git.pdf
+│       │   ├── Pro_Bash_Programming_(US).pdf
+│       │   └── bash_notes_profesional_(US).pdf
+│       ├── LICENSE
+│       ├── LVM
+│       │   ├── Machete_LVM.md
+│       │   └── lvm.md
+│       ├── Owner_Permisos
+│       │   └── Owner_Permisos.md
+│       ├── Particionamiento_standar
+│       │   └── Particionamiento_standar.md
+│       ├── Preparacion_Entorno_Estudiante
+│       │   └── Preparacion_Entorno_Estudiante.md
+│       ├── README.md
+│       ├── Repositorios_Paquetes
+│       │   ├── Gestion_de_Paquetes.md
+│       │   └── Manejo_de_Repositorios.md
+│       ├── Teoria
+│       │   ├── Comparativa_AMD.png
+│       │   ├── Comparativa_Intel.png
+│       │   ├── FileSystem.md
+│       │   ├── Historia.pdf
+│       │   ├── Memoria.md
+│       │   ├── Software.pdf
+│       │   ├── Teoria_Centralizado.md
+│       │   └── Virtualizacion.pdf
+│       ├── comandos_avanzados
+│       │   └── awk.pdf
+│       ├── comandos_basicos
+│       │   ├── Redireccionamiento_tuberias.md
+│       │   └── man.md
+│       ├── jerarquia
+│       │   └── jerarquia_01.png
+│       ├── ssh
+│       │   ├── config
+│       │   ├── config.d
+│       │   │   └── ssh_casa.conf
+│       │   └── ssh.md
+│       ├── user_group
+│       │   └── user_group.md
+│       ├── vim
+│       │   ├── cheat_sheet_Imprimible.pdf
+│       │   ├── vim.md
+│       │   └── vim_cheat_sheet_tutorial.pdf
+│       └── vm
+│           └── Creacion-de-la-maquina-virtual.pdf
+└── snap
+    └── tree
+        ├── 54
+        ├── common
+        │   └── marker_publisher_changed_announcement_shown
+        └── current -> 54
+
+90 directories, 71 files
+vagrant@VMPruebas:~$ rm -r material/'{uni1..3}' materia2/'{uni1..3}
+>
+-bash: unexpected EOF while looking for matching `''
+-bash: syntax error: unexpected end of file
+vagrant@VMPruebas:~$ rm -r material/'{uni1..3}' materia2/'{uni1..3}'
+vagrant@VMPruebas:~$ tree
+.
+├── Clase
+│   ├── 2
+│   ├── Jaimes
+│   │   └── contacto
+│   │       ├── clientes
+│   │       │   ├── facturas
+│   │       │   └── pedidos
+│   │       └── proveedores
+│   │           ├── facturas
+│   │           └── pedidos
+│   ├── Jaimes2
+│   │   └── Mama
+│   │       ├── {hijo1},papa
+│   │       │   ├── ahijado
+│   │       │   ├── hijo1
+│   │       │   ├── hijo2
+│   │       │   └── hijo3
+│   │       ├── {hijo2},papa
+│   │       │   ├── ahijado
+│   │       │   ├── hijo1
+│   │       │   ├── hijo2
+│   │       │   └── hijo3
+│   │       └── {hijo3},papa
+│   │           ├── ahijado
+│   │           ├── hijo1
+│   │           ├── hijo2
+│   │           └── hijo3
+│   ├── archivo1.txt
+│   ├── archivo3.txt
+│   ├── archivo4.txt
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   ├── contacto
+│   │   ├── clientes
+│   │   │   ├── facturas
+│   │   │   └── pedidos
+│   │   └── proveedores
+│   │       ├── facturas
+│   │       └── pedidos
+│   ├── dir
+│   ├── dir1
+│   │   └── dir2
+│   │       └── dir3
+│   │           └── dir4
+│   ├── dir3
+│   ├── facturas
+│   ├── pedidos
+│   ├── practica2.txt
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── Hola
+├── README
+├── carpeta_compartida
+│   ├── Vagrantfile
+│   ├── script_Enable_ssh_password.sh
+│   └── script_Fix_history.sh
+├── clase5
+│   ├── practica1.txt
+│   └── practica2.txt
+├── documentos
+│   ├── archivo1.txt
+│   └── archivo2.txt
+├── materia2
+├── material
+├── repogit
+│   ├── TP1_AySO_Jaimes
+│   │   ├── README.md
+│   │   ├── datos_url.txt
+│   │   ├── datos_usuario.txt
+│   │   └── datos_usuarios.txt
+│   └── UTN-FRA_SO_onBording
+│       ├── Almacenamiento
+│       │   └── Tipos_Almacenamiento.md
+│       ├── Extras
+│       │   ├── Fabricacion_Antenas_Wifi
+│       │   │   └── Proyecto_Antenas_Belgrano
+│       │   │       ├── Belgrano
+│       │   │       │   └── 05-05-2010-Belgrano Mandarache x chalenger.pdf
+│       │   │       ├── Belgrano_2Ni
+│       │   │       │   └── Belgrano-2ni_20110907.pdf
+│       │   │       ├── Belgrano_Caridad
+│       │   │       │   ├── BELGRANO_CARIDAD_JUNIO_2020.pdf
+│       │   │       │   ├── BELGRANO_CARIDAD_MONOPOLO.stl
+│       │   │       │   └── BELGRANO_CARIDAD_REFLECTOR.stl
+│       │   │       ├── Belgrano_Cataro
+│       │   │       │   ├── Cataro_2.4-5_ghz_Dual_Band_wifi.pdf
+│       │   │       │   └── Construccion_del_Belgrano_Cataro_5GHZ.pdf
+│       │   │       ├── Belgrano_Mexico
+│       │   │       │   └── Belgrano Mexico Plantilla 2.pdf
+│       │   │       ├── Belgrano_Windalo
+│       │   │       │   ├── Belgrano_WINDALO.docx.pdf
+│       │   │       │   └── Montaje_de_las_Antenas_WINDALO.pdf
+│       │   │       └── Parabolica_Centrada_para_Iluminador_Belgrano
+│       │   │           ├── 22-06-10-Parabola-120-18-50-OK-12y16R.pdf
+│       │   │           ├── 27-5-2010-Plantilla-Parabola-1m-ok.pdf
+│       │   │           ├── Curvas D120-F72-FD06-12x12-ok x Chalenger.pdf
+│       │   │           ├── Curvas+d1200-p125-f720-fd06+ok+x+Chalenger-1x1.pdf
+│       │   │           ├── Parabola Curvas D=1500 F=900 x FD=06 x Chalenger ok.pdf
+│       │   │           ├── Parabola D1000mm-F600xChalenger.pdf
+│       │   │           ├── ParabolasChalenger_V3.0-16-08-2010.zip
+│       │   │           ├── Plantilla Curvas D2000-P210-F1190-FD06 x Chalenger.pdf
+│       │   │           ├── Plantilla Curvas D=180cm - P=186mm - F=108cm - FD=06 x Chalenger ok.pdf
+│       │   │           ├── Verificar curvatura-ok.pdf
+│       │   │           └── parabola d900-f544-fd06xchalenger-10-08-12.pdf
+│       │   ├── Fundamentos_de_Git.pdf
+│       │   ├── Pro_Bash_Programming_(US).pdf
+│       │   └── bash_notes_profesional_(US).pdf
+│       ├── LICENSE
+│       ├── LVM
+│       │   ├── Machete_LVM.md
+│       │   └── lvm.md
+│       ├── Owner_Permisos
+│       │   └── Owner_Permisos.md
+│       ├── Particionamiento_standar
+│       │   └── Particionamiento_standar.md
+│       ├── Preparacion_Entorno_Estudiante
+│       │   └── Preparacion_Entorno_Estudiante.md
+│       ├── README.md
+│       ├── Repositorios_Paquetes
+│       │   ├── Gestion_de_Paquetes.md
+│       │   └── Manejo_de_Repositorios.md
+│       ├── Teoria
+│       │   ├── Comparativa_AMD.png
+│       │   ├── Comparativa_Intel.png
+│       │   ├── FileSystem.md
+│       │   ├── Historia.pdf
+│       │   ├── Memoria.md
+│       │   ├── Software.pdf
+│       │   ├── Teoria_Centralizado.md
+│       │   └── Virtualizacion.pdf
+│       ├── comandos_avanzados
+│       │   └── awk.pdf
+│       ├── comandos_basicos
+│       │   ├── Redireccionamiento_tuberias.md
+│       │   └── man.md
+│       ├── jerarquia
+│       │   └── jerarquia_01.png
+│       ├── ssh
+│       │   ├── config
+│       │   ├── config.d
+│       │   │   └── ssh_casa.conf
+│       │   └── ssh.md
+│       ├── user_group
+│       │   └── user_group.md
+│       ├── vim
+│       │   ├── cheat_sheet_Imprimible.pdf
+│       │   ├── vim.md
+│       │   └── vim_cheat_sheet_tutorial.pdf
+│       └── vm
+│           └── Creacion-de-la-maquina-virtual.pdf
+└── snap
+88 directories, 71 files
+vagrant@VMPruebas:~$ rm -r material/
+vagrant@VMPruebas:~$ rm -r materia2/
+vagrant@VMPruebas:~$ tree
+.
+├── Clase
+│   ├── 2
+│   ├── Jaimes
+│   │   └── contacto
+│   │       ├── clientes
+│   │       │   ├── facturas
+│   │       │   └── pedidos
+│   │       └── proveedores
+│   │           ├── facturas
+│   │           └── pedidos
+│   ├── Jaimes2
+│   │   └── Mama
+│   │       ├── {hijo1},papa
+│   │       │   ├── ahijado
+│   │       │   ├── hijo1
+│   │       │   ├── hijo2
+│   │       │   └── hijo3
+│   │       ├── {hijo2},papa
+│   │       │   ├── ahijado
+│   │       │   ├── hijo1
+│   │       │   ├── hijo2
+│   │       │   └── hijo3
+│   │       └── {hijo3},papa
+│   │           ├── ahijado
+│   │           ├── hijo1
+│   │           ├── hijo2
+│   │           └── hijo3
+│   ├── archivo1.txt
+│   ├── archivo3.txt
+│   ├── archivo4.txt
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   ├── contacto
+│   │   ├── clientes
+│   │   │   ├── facturas
+│   │   │   └── pedidos
+│   │   └── proveedores
+│   │       ├── facturas
+│   │       └── pedidos
+│   ├── dir
+│   ├── dir1
+│   │   └── dir2
+│   │       └── dir3
+│   │           └── dir4
+│   ├── dir3
+│   ├── facturas
+│   ├── pedidos
+│   ├── practica2.txt
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── Hola
+├── README
+├── carpeta_compartida
+│   ├── Vagrantfile
+│   ├── script_Enable_ssh_password.sh
+│   └── script_Fix_history.sh
+├── clase5
+│   ├── practica1.txt
+│   └── practica2.txt
+├── documentos
+│   ├── archivo1.txt
+│   └── archivo2.txt
+├── repogit
+│   ├── TP1_AySO_Jaimes
+│   │   ├── README.md
+│   │   ├── datos_url.txt
+│   │   ├── datos_usuario.txt
+│   │   └── datos_usuarios.txt
+│   └── UTN-FRA_SO_onBording
+│       ├── Almacenamiento
+│       │   └── Tipos_Almacenamiento.md
+│       ├── Extras
+│       │   ├── Fabricacion_Antenas_Wifi
+│       │   │   └── Proyecto_Antenas_Belgrano
+│       │   │       ├── Belgrano
+│       │   │       │   └── 05-05-2010-Belgrano Mandarache x chalenger.pdf
+│       │   │       ├── Belgrano_2Ni
+│       │   │       │   └── Belgrano-2ni_20110907.pdf
+│       │   │       ├── Belgrano_Caridad
+│       │   │       │   ├── BELGRANO_CARIDAD_JUNIO_2020.pdf
+│       │   │       │   ├── BELGRANO_CARIDAD_MONOPOLO.stl
+│       │   │       │   └── BELGRANO_CARIDAD_REFLECTOR.stl
+│       │   │       ├── Belgrano_Cataro
+│       │   │       │   ├── Cataro_2.4-5_ghz_Dual_Band_wifi.pdf
+│       │   │       │   └── Construccion_del_Belgrano_Cataro_5GHZ.pdf
+│       │   │       ├── Belgrano_Mexico
+│       │   │       │   └── Belgrano Mexico Plantilla 2.pdf
+│       │   │       ├── Belgrano_Windalo
+│       │   │       │   ├── Belgrano_WINDALO.docx.pdf
+│       │   │       │   └── Montaje_de_las_Antenas_WINDALO.pdf
+│       │   │       └── Parabolica_Centrada_para_Iluminador_Belgrano
+│       │   │           ├── 22-06-10-Parabola-120-18-50-OK-12y16R.pdf
+│       │   │           ├── 27-5-2010-Plantilla-Parabola-1m-ok.pdf
+│       │   │           ├── Curvas D120-F72-FD06-12x12-ok x Chalenger.pdf
+│       │   │           ├── Curvas+d1200-p125-f720-fd06+ok+x+Chalenger-1x1.pdf
+│       │   │           ├── Parabola Curvas D=1500 F=900 x FD=06 x Chalenger ok.pdf
+│       │   │           ├── Parabola D1000mm-F600xChalenger.pdf
+│       │   │           ├── ParabolasChalenger_V3.0-16-08-2010.zip
+│       │   │           ├── Plantilla Curvas D2000-P210-F1190-FD06 x Chalenger.pdf
+│       │   │           ├── Plantilla Curvas D=180cm - P=186mm - F=108cm - FD=06 x Chalenger ok.pdf
+│       │   │           ├── Verificar curvatura-ok.pdf
+│       │   │           └── parabola d900-f544-fd06xchalenger-10-08-12.pdf
+│       │   ├── Fundamentos_de_Git.pdf
+│       │   ├── Pro_Bash_Programming_(US).pdf
+│       │   └── bash_notes_profesional_(US).pdf
+│       ├── LICENSE
+│       ├── LVM
+│       │   ├── Machete_LVM.md
+│       │   └── lvm.md
+│       ├── Owner_Permisos
+│       │   └── Owner_Permisos.md
+│       ├── Particionamiento_standar
+│       │   └── Particionamiento_standar.md
+│       ├── Preparacion_Entorno_Estudiante
+│       │   └── Preparacion_Entorno_Estudiante.md
+│       ├── README.md
+│       ├── Repositorios_Paquetes
+│       │   ├── Gestion_de_Paquetes.md
+│       │   └── Manejo_de_Repositorios.md
+│       ├── Teoria
+│       │   ├── Comparativa_AMD.png
+│       │   ├── Comparativa_Intel.png
+│       │   ├── FileSystem.md
+│       │   ├── Historia.pdf
+│       │   ├── Memoria.md
+│       │   ├── Software.pdf
+│       │   ├── Teoria_Centralizado.md
+│       │   └── Virtualizacion.pdf
+│       ├── comandos_avanzados
+│       │   └── awk.pdf
+│       ├── comandos_basicos
+│       │   ├── Redireccionamiento_tuberias.md
+│       │   └── man.md
+│       ├── jerarquia
+│       │   └── jerarquia_01.png
+│       ├── ssh
+│       │   ├── config
+│       │   ├── config.d
+│       │   │   └── ssh_casa.conf
+│       │   └── ssh.md
+│       ├── user_group
+│       │   └── user_group.md
+│       ├── vim
+│       │   ├── cheat_sheet_Imprimible.pdf
+│       │   ├── vim.md
+│       │   └── vim_cheat_sheet_tutorial.pdf
+│       └── vm
+│           └── Creacion-de-la-maquina-virtual.pdf
+└── snap
+Nahu@DESKTOP-599L5TK MINGW64 /d/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant up
+==> vagrant: A new version of Vagrant is available: 2.4.9 (installed version: 2.
+4.3)!
+==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to da
+te...
+==> default: Resuming suspended VM...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+==> default: Machine booted and ready!
+vagrant@VMPruebas:~$ ls -l
+total 28
+drwxrwxr-x 13 vagrant vagrant 4096 Sep 15 13:07 Clase
+drwxrwxr-x  2 vagrant vagrant 4096 Sep 14 18:43 Hola
+-rw-r--r--  1 root    root       5 Sep  8 12:41 README
+drwxrwxrwx  1 vagrant vagrant    0 Sep  8 12:39 carpeta_compartida
+drwxrwxr-x  2 vagrant vagrant 4096 Sep 15 15:13 clase5
+drwxrwxr-x  2 vagrant vagrant 4096 Sep 14 19:08 documentos
+pwd
+mkdir clase6
+cd clase6
+touch practica.txt
+ls -l
+tree
+echo ls -l > script1
+cat script1
+bash script1
+vim script2.sh
+cat script2.sh
+chmod 775 script2.sh
+ls -l
+./script2.sh
+rm script2.sh 
+vim script2.sh
+chmod 775 script2.sh
+./script2.sh
+cat script2.sh 
+vim script2.sh
+./script2.sh
+tree
+echo "mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" > script_dir.sh
+chmod 755 script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+pwd
+cd
+cd repogit
+cd TP1_AySO_Jaimes/
+ls-l
+ls -l
+tree
+cd ..
+cd..
+cd ..
+tree
+cd repogit/
+cd TP1_AySO_Jaimes/
+echo "mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" > script_dir.sh
+chmod 777 script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+history -a
